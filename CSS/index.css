@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+
+/*header css start*/
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0;
+}
+
+header ul {
+    align-self: center;
+    margin: 0;
+}
+
+.navbar img {
+    width: 30%;
+    height: auto;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+}
+
+header a {
+    color: #000;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+/*header css end*/
+
+
+/*main start*/
+
+
+/*start row 1*/
+
+main .image {
+    height: 500px;
+    background: url("./image1.jpg") center no-repeat;
+    background-size: cover;
+    padding: 0;
+    color: #fff;
+}
+
+main .opacite {
+    text-align: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .text {
+    font-weight: 400;
+}
+
+main .text a {
+    background-color: #00c853;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+main .text h2 {
+    color: #00c853;
+    font-weight: 400;
+}
+
+
+/*end row 1*/
+
+.ligne2 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    padding: 3% 0;
+}
+
+.Liste_carte {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cartes {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.cartes_titre h4 {
+    padding: 2% 0;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    background-color: #00c853;
+    margin: 0;
+}
+
+.card_text {
+    font-size: 15px;
+}
+
+.ligne2 a {
+    color: #fff;
+    background-color: #00c853;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.ligne2 hr {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 2px solid #00c853;
+}
+
+
+/*start row 2*/
+
+
+/*end row 2*/
+
+
+/*start row 3*/
+
+
+/*end row 3*/
+
+
+/*main end*/
