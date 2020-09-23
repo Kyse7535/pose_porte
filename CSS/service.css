@@ -1,0 +1,45 @@
+.service1 .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3% auto;
+}
+
+.service1 .content img {
+    width: 100%;
+    height: auto;
+}
+
+.service1_text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.service1_text h3 {
+    color: #00c853;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 1% 0;
+}
+
+.service1 a {
+    padding: 10px 25px;
+    background-color: #00c853;
+    color: #fff;
+    border-radius: 20px;
+}
+
+hr {
+    border-top: 2px solid #00c853;
+    width: 100%;
+}
+
+.ligne2_text {
+    font-weight: 400;
+}
+
+.ligne3 img {
+    width: 100%;
+    height: auto;
+}
