@@ -58,6 +58,7 @@ header ul a {
     height: 100%;
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 3vw;
 }
 
 header ul a:hover {
@@ -241,6 +242,9 @@ footer hr {
     header .logo {
         width: 50%;
         height: auto;
+    }
+    header a {
+        font-size: 20px;
     }
     /*header end*/
     /*main start*/
