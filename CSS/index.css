@@ -5,6 +5,10 @@
     font-family: 'Yanone Kaffeesatz';
 }
 
+body {
+    min-width: 250px;
+}
+
 
 /*header css start*/
 
@@ -21,8 +25,12 @@ ul {
     margin: 0;
 }
 
-.content img {
-    width: 30%;
+header ul {
+    font-family: 'Yanone Kaffeesatz';
+}
+
+.logo {
+    width: 20%;
     height: auto;
 }
 
@@ -69,11 +77,6 @@ main .opacite {
     align-items: center;
 }
 
-main .text {
-    font-weight: 400;
-    font-size: 21px;
-}
-
 main .text a {
     background-color: #00c853;
     color: #fff;
@@ -85,6 +88,18 @@ main .text h2 {
     color: #00c853;
     font-weight: 400;
     font-size: 28px;
+}
+
+main .text {
+    font-weight: 400;
+    font-size: 18px;
+    width: 80%;
+}
+
+main .text a,
+.text h2,
+.text p {
+    font-family: 'Lato';
 }
 
 
@@ -108,8 +123,9 @@ h2 {
 }
 
 .cartes {
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
+    display: inline-block;
 }
 
 .cartes_titre h4 {
@@ -183,6 +199,13 @@ h2 {
     border-bottom: 1px solid grey;
 }
 
+footer hr {
+    width: 50%;
+    margin: 0 auto;
+    border-top: 2px solid #fff;
+    background-color: #00c853;
+}
+
 
 /*end row 3*/
 
@@ -190,37 +213,51 @@ h2 {
 /*main end*/
 
 @media (min-width:768px) {
+    * {
+        font-size: 20px;
+    }
     .content {
         display: flex;
         justify-content: space-around;
         padding: 2% 0;
     }
-    .text {
+    main .text {
         width: 50%;
     }
-    .content img,
-    .footer img {
-        width: 18%;
+    main h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .logo {
+        width: 20%;
+        height: auto;
+    }
+    footer {
+        background-color: #00c853;
+    }
+    footer .logo {
+        width: 16%;
         height: auto;
     }
     .content a {
         font-size: 22px;
         padding: 15px;
     }
-    .image {
-        height: 800px;
+    main .image {
+        height: 700px;
     }
-    .Liste_carte {
+    .liste_carte {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         flex-wrap: nowrap;
-        flex-direction: row;
+        padding: 0 2%;
     }
     .cartes {
-        width: 28%;
-        margin: 0;
-        display: inline-block;
+        width: 30%;
+    }
+    .cartes p {
+        font-size: 20px;
     }
     .ligne3 p {
         font-size: 19px;
@@ -233,5 +270,14 @@ h2 {
     .footer li {
         font-size: 25px;
         font-weight: 400;
+    }
+    footer hr {
+        width: 50%;
+        margin: 0 auto;
+        border-top: 2px solid #fff;
+        background-color: #00c853;
+    }
+    footer .content {
+        padding: 10px;
     }
 }

@@ -14,16 +14,18 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="CSS/service.css">
+
     <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="CSS/service.css">
 </head>
 
 <body>
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 ">
+                <div class="col-12 color1">
                     <div class="content">
                         <img src="CSS/ws-logo-fi666993x320.png" alt="logo" class="img-fluid" />
                         <ul>
@@ -43,7 +45,7 @@
                 <div class="col-12">
                     <h2>Je suis un Titre. Double-cliquez.</h2>
                 </div>
-                <div class="col-12 service1">
+                <div class="col-12 service1 color1">
                     <div class="content">
                         <img src="./CSS/image2.jpg" alt="image1">
                         <div class="div service1_text">
@@ -55,9 +57,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 service1">
-                    <div class="content">
-                        <img src="./CSS/image2.jpg" alt="image1">
+                <div class="col-12 service1 ">
+                    <div class="content position_relative">
+
                         <div class="div service1_text">
                             <h3>Je suis un Titre. Double-cliquez.</h3>
                             <p>Ceci est un paragraphe. Survolez-moi avec votre souris d'ordinateur et cliquez une fois pour que le menu s'affiche. Double-cliquez pour éditer directement le texte. Vous pouvez aussi me déplacer n'importe où sur la page par
@@ -65,10 +67,11 @@
                             </p>
                             <a href="#">Je decouvre</a>
                         </div>
+                        <img src="./CSS/image2.jpg" alt="image1">
                     </div>
 
                 </div>
-                <div class="col-12 service1">
+                <div class="col-12 service1 color1">
                     <div class="content">
                         <img src="./CSS/image4.jpg" alt="image1">
                         <div class="div service1_text">
@@ -81,9 +84,9 @@
                     </div>
 
                 </div>
-                <div class="col-12 service1">
-                    <div class="content">
-                        <img src="./CSS/image2.jpg" alt="image1">
+                <div class="col-12 service1 ">
+                    <div class="content position_relative">
+
                         <div class="div service1_text">
                             <h3>Je suis un Titre. Double-cliquez.</h3>
                             <p>Ceci est un paragraphe. Survolez-moi avec votre souris d'ordinateur et cliquez une fois pour que le menu s'affiche. Double-cliquez pour éditer directement le texte. Vous pouvez aussi me déplacer n'importe où sur la page par
@@ -91,14 +94,18 @@
                             </p>
                             <a href="#">Je decouvre</a>
                         </div>
+                        <img src="./CSS/image2.jpg" alt="image1">
                     </div>
 
                 </div>
             </div>
 
+        </div>
+        <div class="container">
             <div class="row ligne2">
                 <div class="col-12">
                     <hr>
+
                     <div class="ligne2_text my-2">
                         <h2>Je suis un Titre. Double-cliquez.</h2>
                         <p>Ceci est un paragraphe. C'est l'endroit idéal pour écrire une description sur votre entreprise ou vos services. Vous pouvez ajouter et modifier le texte. Survolez-moi avec votre souris d'ordinateur et cliquez une fois pour que
@@ -160,24 +167,22 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12  ligne3">
+                <div class="col-12 ">
                     <hr>
                     <h2>Je suis un Titre. Double-cliquez pour éditer.</h2>
-                    <div class="content">
-
-                        <div class="ligne3_text">
-                            <img src="./CSS/image1.jpg" alt="image">
-                            <form action="">
-                                <label for="">Nom</label><br>
-                                <input type="text"><br>
-                                <label for="">Prenom</label><br>
-                                <input type="text"><br>
-                                <label for="">Email</label><br>
-                                <input type="text" name="" id="">
-                                <label for="">Message <em>(facultatif)</em></label><br>
-                                <textarea name="" id="" rows="5"></textarea>
-                            </form>
-                        </div>
+                    <div class="ligne3">
+                        <img src="./CSS/school2.jpg" alt=" image">
+                        <form action="">
+                            <label for="">Nom</label><br>
+                            <input type="text"><br>
+                            <label for="">Prenom</label><br>
+                            <input type="text"><br>
+                            <label for="">Email</label><br>
+                            <input type="text" name="" id=""><br>
+                            <label for="">Message <em>(facultatif)</em></label><br>
+                            <textarea name="" id="" rows="5"></textarea><br>
+                            <input type="submit" name="" id="" value="Envoyer">
+                        </form>
                     </div>
                 </div>
             </div>
@@ -186,15 +191,19 @@
     <footer class="page-footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 footer footer_1">
-                    <img src="./CSS/logo_blanc.png" alt="logo" />
-                    <ul>
-                        <li><i class="fas fa-envelope"></i> contact@site.com</li>
-                        <li><i class="fas fa-mobile"></i> 555 555-555</li>
-                    </ul>
+                <div class="col-12 footer footer_1 content">
+                    <div class="content">
+                        <img src="./CSS/logo_blanc.png" alt="logo" />
+                        <ul>
+                            <li><i class="fas fa-envelope"></i> contact@site.com</li>
+                            <li><i class="fas fa-mobile"></i> 555 555-555</li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="col-12 footer">
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 footer content">
                     <p>© Pose portes et fênetres - 2015</p>
                     <ul>
                         <li><i class="fab fa-facebook-square"></i></li>

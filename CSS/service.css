@@ -1,8 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+
+/*row 1 start*/
+
+main p {
+    font-family: 'Lato';
+}
+
 .service1 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 3% auto;
+    border-color: #eeeeee;
+}
+
+.color1 {
+    background-color: #eeeeee;
 }
 
 .service1 .content img {
@@ -30,6 +49,12 @@
     border-radius: 20px;
 }
 
+
+/*end row1*/
+
+
+/*start row2*/
+
 hr {
     border-top: 2px solid #00c853;
     width: 100%;
@@ -39,7 +64,106 @@ hr {
     font-weight: 400;
 }
 
+
+/*end row2*/
+
+
+/*start row3*/
+
 .ligne3 img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    padding: 2% 0;
+    margin: 0 auto;
+}
+
+.ligne3 form input[type='text'],
+textarea {
+    width: 80%;
+}
+
+.ligne3 label {
+    font-weight: 400;
+}
+
+.ligne3 input[type='submit'] {
+    width: 20%;
+    margin: 2% 0;
+    background-color: #00c853;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/*end row3*/
+
+@media (min-width: 768px) {
+    main h2 {
+        padding: 1% 0;
+    }
+    .service1 .content {
+        width: 65%;
+        margin: 2% auto;
+    }
+    .service1 .content img {
+        width: 40%;
+        height: auto;
+    }
+    .service1_text {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        width: 45%;
+    }
+    main .position_relative {
+        position: relative;
+        left: 5%;
+    }
+    .ligne2 hr {
+        width: 65%;
+        border-top: 3px solid #00c853;
+        margin: 0 auto;
+    }
+    .ligne2_text p {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto 2%;
+    }
+    .liste_carte {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0 2%;
+    }
+    .cartes {
+        width: 30%;
+    }
+    .cartes p {
+        font-size: 20px;
+    }
+    .ligne3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ligne3 img {
+        margin: 0;
+        width: 45%;
+        height: auto;
+        padding: 0;
+        padding-bottom: 2%;
+    }
+    .ligne3 form {
+        width: 50%;
+        height: 100%;
+        align-self: flex-start;
+    }
+    .ligne3 input[type='submit'] {
+        width: 20%;
+        margin: 2% 0;
+        background-color: #00c853;
+        color: #fff;
+        border-radius: 5px;
+    }
 }
