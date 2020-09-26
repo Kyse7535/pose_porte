@@ -98,6 +98,7 @@ textarea {
 /*end row3*/
 
 @media (min-width: 768px) {
+    /*line1 start*/
     main h2 {
         padding: 1% 0;
     }
@@ -119,11 +120,13 @@ textarea {
         position: relative;
         left: 5%;
     }
-    .ligne2 hr {
-        width: 65%;
+    /*line start end*/
+    .line {
+        width: 85%;
         border-top: 3px solid #00c853;
         margin: 0 auto;
     }
+    /*line2 start*/
     .ligne2_text p {
         width: 80%;
         text-align: center;
@@ -137,11 +140,13 @@ textarea {
         padding: 0 2%;
     }
     .cartes {
-        width: 30%;
+        width: 25%;
     }
     .cartes p {
-        font-size: 20px;
+        font-size: 15px;
     }
+    /*line 2 end*/
+    /*line 3 start*/
     .ligne3 {
         display: flex;
         justify-content: space-between;
@@ -166,4 +171,5 @@ textarea {
         color: #fff;
         border-radius: 5px;
     }
+    /*line 3 end*/
 }

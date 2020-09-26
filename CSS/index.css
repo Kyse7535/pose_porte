@@ -12,6 +12,10 @@ body {
 
 /*header css start*/
 
+header {
+    background-color: #eeeeee;
+}
+
 .content {
     width: 80%;
     margin: 0 auto;
@@ -30,16 +34,26 @@ header ul {
 }
 
 .logo {
-    width: 20%;
+    width: 25%;
+    height: auto;
+}
+
+header .logo {
+    width: 70%;
     height: auto;
 }
 
 header li {
     list-style: none;
     display: inline-block;
+    font-size: 13px;
 }
 
 header a {
+    width: 40%;
+}
+
+header ul a {
     color: #000;
     height: 100%;
     text-transform: uppercase;
@@ -214,17 +228,21 @@ footer hr {
     * {
         font-size: 20px;
     }
-    /*header */
+    /*header start */
     header .logo {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
-    /*header*/
-    /*main*/
+    .Active {
+        background-color: #00c853;
+        color: #fff;
+    }
+    /*header end*/
+    /*main start*/
     .content {
         display: flex;
         justify-content: space-around;
-        padding: 2% 0;
+        padding: 1% 0;
     }
     .ligne2 a {
         margin: 2% auto;
@@ -257,7 +275,8 @@ footer hr {
         width: 50%;
         height: auto;
     }
-    /*main*/
+    /*main end*/
+    /*footer start*/
     footer {
         background-color: #00c853;
     }
@@ -288,4 +307,5 @@ footer hr {
     footer hr {
         width: 60%;
     }
+    /*footer end*/
 }
