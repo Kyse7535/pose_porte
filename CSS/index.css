@@ -65,6 +65,11 @@ header ul a:hover {
     color: #fff;
 }
 
+.Active {
+    background-color: #00c853;
+    color: #fff;
+}
+
 
 /*header css end*/
 
@@ -232,10 +237,6 @@ footer hr {
     header .logo {
         width: 50%;
         height: auto;
-    }
-    .Active {
-        background-color: #00c853;
-        color: #fff;
     }
     /*header end*/
     /*main start*/
