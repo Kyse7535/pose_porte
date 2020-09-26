@@ -46,7 +46,7 @@ header a {
     font-weight: 400;
 }
 
-header a:hover {
+header ul a:hover {
     background-color: #00c853;
     color: #fff;
 }
@@ -96,9 +96,9 @@ main .text {
     width: 80%;
 }
 
-main .text a,
-.text h2,
-.text p {
+main a,
+h2,
+p {
     font-family: 'Lato';
 }
 
@@ -165,6 +165,8 @@ h2 {
 
 .ligne3 p {
     text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
 }
 
 .carrousel {
@@ -178,7 +180,7 @@ h2 {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1% 0;
     flex-wrap: wrap;
     background-color: #00c853;
@@ -193,10 +195,6 @@ h2 {
     list-style: none;
     display: inline-block;
     margin: 0 10px;
-}
-
-.footer_1 {
-    border-bottom: 1px solid grey;
 }
 
 footer hr {
@@ -216,10 +214,20 @@ footer hr {
     * {
         font-size: 20px;
     }
+    /*header */
+    header .logo {
+        width: 100%;
+        height: auto;
+    }
+    /*header*/
+    /*main*/
     .content {
         display: flex;
         justify-content: space-around;
         padding: 2% 0;
+    }
+    .ligne2 a {
+        margin: 2% auto;
     }
     main .text {
         width: 50%;
@@ -228,17 +236,6 @@ footer hr {
         font-size: 40px;
         font-weight: 600;
     }
-    .logo {
-        width: 20%;
-        height: auto;
-    }
-    footer {
-        background-color: #00c853;
-    }
-    footer .logo {
-        width: 16%;
-        height: auto;
-    }
     .content a {
         font-size: 22px;
         padding: 15px;
@@ -246,18 +243,11 @@ footer hr {
     main .image {
         height: 700px;
     }
-    .liste_carte {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
-        padding: 0 2%;
-    }
     .cartes {
         width: 30%;
     }
     .cartes p {
-        font-size: 20px;
+        font-size: 17px;
     }
     .ligne3 p {
         font-size: 19px;
@@ -266,6 +256,21 @@ footer hr {
     .carousel-inner img {
         width: 50%;
         height: auto;
+    }
+    /*main*/
+    footer {
+        background-color: #00c853;
+    }
+    .footer_1 .logo {
+        width: 15%;
+        height: auto;
+    }
+    .liste_carte {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0 2%;
     }
     .footer li {
         font-size: 25px;
@@ -279,5 +284,8 @@ footer hr {
     }
     footer .content {
         padding: 10px;
+    }
+    footer hr {
+        width: 60%;
     }
 }
